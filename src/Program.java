@@ -1,13 +1,11 @@
 
-import SRV154DIV2.*;
+import SRV155DIV2.*;
+import java.util.*;
 
 public class Program {
 	public static void main(String[] args) {
-		Solution s = new Solution();
+		Quipu q = new Quipu();
 		
-		String s1 = "bcbccabcccbcbbbcbbacaaccccacbaccabaccbabccbabcaabbbccbbbaa", s2 = "ccbccaaccabacaabccaaccbabcbbaacacaccaacbacbbccccbac";
-		String s3 = "bccbcccabbccaccaccacbacbacbabbcbccbaaccbbaacbcbaacbacbaccaaccabcaccacaacbacbacccbbabcccccbababcaabcbbcccbbbaa", s4 = "aadbbbaccc";
-		
-		System.out.println(s.isInterleave(s1, s2, s3));
+		System.out.println(q.readKnots("-X-------"));
 	}
 }
